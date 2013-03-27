@@ -21,8 +21,8 @@ cmake_minimum_required(VERSION 2.8.7)
 project(cpushareholder-stub NONE)
 
 include(webOS/webOS)
-webos_modules_init(1 0 0 QUALIFIER RC3)
-webos_component(2 0 0)
+webos_modules_init(1 0 0 QUALIFIER RC4)
+webos_component(2 0 1)
 
 file(GLOB scripts scripts/public/*)
 install(PROGRAMS ${scripts} DESTINATION ${WEBOS_INSTALL_SBINDIR})

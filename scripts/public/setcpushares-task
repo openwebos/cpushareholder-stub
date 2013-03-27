@@ -4,8 +4,6 @@
 
 # Used to set groups for command-line invocations of programs, either existing or newly launched.
 
-. /etc/default/cpushareholder
-
 if [ "$1" = "-p" ] ; then
 	shift
 	pid=$1
